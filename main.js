@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const bot_token = "ODE4NTQ4ODExNDEyNDA2MzA0.YEZq_A.J0JzeowKgyGNeWMwItL2H-2LzNQ"
+const bot_token = "ODE4NTQ4ODExNDEyNDA2MzA0.YEZq_A.zWbfzt2cQau45N2ylTlO9f7ttOg"
 
 
 var ServerObject = []
