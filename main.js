@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const bot_token = "ODE4NTQ4ODExNDEyNDA2MzA0.YEZq_A.zWbfzt2cQau45N2ylTlO9f7ttOg"
-
+const bot_token = ""
 
 var ServerObject = []
 var ServerMembers = []
@@ -131,4 +130,4 @@ client.on("voiceStateUpdate", (oldState, newState) => {
 		}
 	})
 })
-client.login(process.env.bot_token)
+client.login("ODE4NTQ4ODExNDEyNDA2MzA0" + process.env.bot_token)
