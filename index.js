@@ -131,4 +131,4 @@ client.on("voiceStateUpdate", (oldState, newState) => {
 		}
 	})
 })
-client.login(bot_token)
+client.login(process.env.bot_token)
